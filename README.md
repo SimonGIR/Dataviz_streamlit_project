@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## Récupération des données
 1) Téléchargement automatique (nécessite Internet) :
 ```bash
-python scripts/download_data.py
+python -m scripts.download_data
 ```
 2) Ou dépôt manuel des CSV dans `data/` avec les noms attendus :
 - `caract-2022.csv`, `caract-2023.csv`
